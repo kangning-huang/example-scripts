@@ -1,0 +1,28 @@
+site:
+  lat: 31.23
+  lon: 121.47
+  tz: Asia/Shanghai
+urban:
+  H_over_W: 2.0
+  mean_bldg_height_m: 18
+  road_albedo: 0.12
+  wall_emissivity: 0.95
+  roof_emissivity: 0.95
+  anthropogenic_heat_Wm2: 10
+vegetation:
+  use_teb_veg: true
+  tree_fraction: 0.25
+  lawn_fraction: 0.10
+  LAI_tree: 3.0
+  canopy_transmissivity: 0.25
+human:
+  scenario: "shade"   # or "sun"
+  alpha_shortwave: 0.3
+  skin_emissivity: 0.97
+  fs_radiation: 0.8
+  Ts_C: 36.0
+  lambdaE_max_Wm2: 500
+  metabolic_M_Wm2: 176   # “moderate work” as in Table 1
+ground:
+  albedo: 0.15
+  sky_LW_partition: 0.5   # for Lin = eps*(0.5*Lg + 0.5*La)
